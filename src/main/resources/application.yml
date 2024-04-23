@@ -1,0 +1,19 @@
+
+logging:
+  level:
+    com.azure: WARN
+
+---
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+    env:
+      show-values: ALWAYS
+server:
+  shutdown: graceful
+spring:
+  lifecycle:
+    timeout-per-shutdown-phase: 30s
