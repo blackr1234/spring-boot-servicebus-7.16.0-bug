@@ -61,6 +61,16 @@
 		</dependency>
 		<dependency>
 			<groupId>com.azure</groupId>
+			<artifactId>azure-core</artifactId>
+			<version>1.48.0</version> 
+		</dependency>
+		<dependency>
+			<groupId>com.azure</groupId>
+			<artifactId>azure-core-amqp</artifactId>
+			<version>2.9.3</version> 
+		</dependency>
+		<dependency>
+			<groupId>com.azure</groupId>
 			<artifactId>azure-messaging-servicebus</artifactId>
 			<version>7.16.0</version>
 		</dependency>
